@@ -1,0 +1,29 @@
+@import "./style/form.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* tailwind customization  */
+/* base layer e tag gulo customize kori  */
+@layer base {
+  h1 {
+    @apply text-4xl;
+  }
+  h2 {
+    @apply text-3xl;
+  }
+  h3 {
+    @apply text-2xl;
+  }
+}
+
+
+@layer components {
+  .btn-solid {
+    @apply px-3 py-2 bg-purple-300 border border-red-300 hover:bg-opacity-35
+  }
+
+  .btn-primary{
+    @apply bg-blue-400 px-3 py-2 rounded-sm hover:bg-opacity-50;
+  }
+}

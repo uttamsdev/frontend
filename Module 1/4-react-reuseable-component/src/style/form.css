@@ -1,0 +1,21 @@
+@layer base {
+    
+    [type='text'],
+    input:where(:not([type])),
+    [type='email'],
+    [type='url'],
+    [type='password'],
+    [type='number'],
+    [type='date'],
+    [type='datetime-local'],
+    [type='month'],
+    [type='search'],
+    [type='tel'],
+    [type='time'],
+    [type='week'],
+    [multiple],
+    textarea,
+    select{
+        @apply w-full border border-gray-300 focus:border-purple-500 rounded-md focus:ring-1 focus:ring-purple-500 shadow-sm
+    }
+}
