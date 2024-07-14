@@ -2,9 +2,22 @@ import React from 'react'
 import { motion } from 'framer-motion';
 
 const Lesson2 = () => {
+    //keyframe based animation
     const parent = {
-        initial: { opacity: 0 },
-        animate: { opacity: 1 }
+        initial: { opacity: 0, x: 0 },
+        animate: {
+            x: [0, 300, -300, 0],
+            y: [0, 300, -300, 0],
+            opacity: 1,
+            transition: {
+                duration: 5,
+                repeat: Infinity,
+                opacity: {
+                    duration: 0.5 //opacity er jonno transition
+                }
+
+            }
+        } //x = translate x = 300
     }
     return (
         //gesture
