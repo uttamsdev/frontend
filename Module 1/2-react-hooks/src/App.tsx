@@ -14,8 +14,8 @@ function App() {
       {/* <UseStateExample counter={counter} setCounter={setCounter}/> */}
       {/* <Form/> */}
       <UseReducerExample/>
-      {/* <UseReducerForm/> */}
-      {/* <UseEffectExample/> */}
+      <UseReducerForm/>
+      <UseEffectExample/>
     </>
   )
 }

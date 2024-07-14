@@ -18,17 +18,17 @@ function App() {
   return (
     <>
       <main>
-        {/* <UseRefExample/> */}
+        <UseRefExample/>
         <UseRefForm />
-        {/* <ExampleForwardRef/> */}
+        <ExampleForwardRef/>
         <button onClick={() => setDark(!dark)}>Click</button>
         <MenuList>
           <MenuItem />
         </MenuList>
 
-        {/* <Profile /> */}
-        {/* <GameResult/> */}
-        {/* <UsersContainer/> */}
+        <Profile />
+        <GameResult/>
+        <UsersContainer/>
       </main>
     </>
   );

@@ -45,4 +45,5 @@ const CloseButton = () => {
 
 Modal.CloseButton = CloseButton; //compound component
 
+
 export default Modal;

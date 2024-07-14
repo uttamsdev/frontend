@@ -6,7 +6,7 @@ import AdminLayout from "../components/layout/AdminLayout";
 import Test from "../pages/Test";
 
 const router = createBrowserRouter([
-  {
+  { 
     path: "/",
     element: <App />,
     children: [

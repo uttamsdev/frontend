@@ -2,7 +2,7 @@
   /* border: 2px solid black; */
   /* padding: 20px; */
   display: flex;
-  justify-content: center;
+  justify-content:center;
   align-items: center;
   flex-direction: column;
   gap: 10px;
@@ -30,7 +30,7 @@
 }
 
 .box-1:hover {
-  /* transform: translateX(150px); */
+  transform: translateX(150px);
   /* transform: translateY(100px) */
 }
 
@@ -38,7 +38,7 @@
   /* transform: translateY(200px); */
   /* transform: scale(0.5); */
   /* transform: rotate(180deg); */
-  transform: translateZ(100px);
+  /* transform: translateZ(100px); */
   /* transalateZ dile parent div k perspective dite hobe...  */
 }
 
@@ -67,10 +67,10 @@
   background: tomato;
   position: absolute;
   top: 0;
-  right: 0;
-  /* transform: translate(100px); */
+  left: 0;
+  transform: translateX(100px);
   /* transform: scaleX(0); */
-  transform: scaleY(0);
+  /* transform: scaleY(0); */
   transition: all 500ms ease;
   z-index: -1;
 }
@@ -81,9 +81,9 @@
 
 .btn:hover:after {
   /* transform: translate(0); */
-  /* transform: scaleX(1); */
+  transform: scaleX(1);
 
-  transform: scaleY(1);
+  /* transform: scaleY(1); */
   background-color: tomato;
 }
 
@@ -101,15 +101,15 @@
 }
 
 @keyframes moving {
-  /* from {
+  from {
     transform: translate(0);
   }
 
   to {
     transform: translate(500px);
-  } */
+  }
 
-  0% {
+  /* 0% {
     transform: translate(0);
     background-color: blue;
   }
@@ -124,7 +124,7 @@
   }
   100% {
     transform: translate(200px, 300px);
-  }
+  } */
 }
 
 /* loading animation  */
