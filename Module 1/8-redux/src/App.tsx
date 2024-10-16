@@ -1,6 +1,6 @@
 import React from 'react'
-import { useDispatch, useSelector } from 'react-redux'
-import { decrement, increment, incrementByValue } from './redux/features/counterSlice';
+// import { useDispatch, useSelector } from 'react-redux'
+import { decrement, increment, incrementByValue} from './redux/features/counterSlice';
 import { RootState } from './redux/store';
 import { useAppDispatch, useAppSelector } from './hooks/hook';
 
