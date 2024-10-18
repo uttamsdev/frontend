@@ -5,7 +5,7 @@ import TodoCard from '../todo/TodoCard'
 const Todo = () => {
     return (
         <div className='container mx-auto'>
-            <p className='text-center text-xl font-semibold'>My ToDos:</p>
+            <p className='text-center text-xl font-semibold my-5'>My ToDos:</p>
             <TodoContainer />
         </div>
     )
